@@ -2,11 +2,9 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
 Hi, I'm **shl3ps**.
 
-I focus on **Reverse Engineering**, **Low-Level Programming**, and **Offensive Security**. This blog is my personal knowledge base where I document binary analysis, Windows internals, C/Assembly notes, and lab writeups.
-
+Mostly breaking code, getting lost in assembly, and using this blog as an external hard drive for my brain.
 ---
 
 ### Certifications
