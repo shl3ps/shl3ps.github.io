@@ -11,3 +11,4 @@ I focus on **Reverse Engineering**, **Low-Level Programming**, and **Offensive S
 
 ### Certifications
 
+![Web-RTA](/assets/web-rta.jpg){: width="240" .normal}
