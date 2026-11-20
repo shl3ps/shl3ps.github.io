@@ -18,7 +18,7 @@ github:
 twitter:
   username: shl3ps
 
-social: /assets/frierenasm.jpg
+social:
   name: shl3ps
   links:
     - https://github.com/shl3ps
@@ -26,7 +26,7 @@ social: /assets/frierenasm.jpg
 
 theme_mode: dark
 
-avatar: 
+avatar: /assets/frierenasm.jpg
 paginate: 10
 
 pwa:
