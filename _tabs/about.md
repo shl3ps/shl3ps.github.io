@@ -11,7 +11,7 @@ Mostly breaking code, getting lost in assembly, and using this blog as an extern
 
 ### Certifications
 
-### obtained
+### Obtained
 
 ![Web-RTA](/assets/web-rta.jpg){: width="240" .normal}
 
@@ -20,6 +20,6 @@ Mostly breaking code, getting lost in assembly, and using this blog as an extern
 ![cjca](/assets/cjca.jpg){: width="240" .normal}
 
 
-### some day
+### Some day
 
 ![OSCP](/assets/OSCP.png){: width="240" .normal}
