@@ -5,7 +5,7 @@ order: 4
 
 Hi, I'm **shl3ps**.
 
-Mostly breaking code, getting lost in assembly, and using this blog as an external hard drive for my brain.
+Mostly breaking code, getting lost in assembly, and using this blog as an external hard drive for my brain.LOL!
 
 ---
 
