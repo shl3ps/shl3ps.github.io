@@ -23,3 +23,4 @@ Mostly breaking code, getting lost in assembly, and using this blog as an extern
 ### Some day
 
 ![OSCP](/assets/OSCP.png){: width="240" .normal}
+![grem](/assets/grem.png){: width="240" .normal}
