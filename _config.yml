@@ -26,9 +26,7 @@ social:
 
 theme_mode: dark
 
-avatar: "/assets/img/avatar.png"
-
-toc: true
+avatar: 
 paginate: 10
 
 pwa:
