@@ -22,3 +22,4 @@ Mostly breaking code, getting lost in assembly, and using this blog as an extern
 
 ### some day
 
+![OSCP](/assets/OSCP.png){: width="240" .normal}
