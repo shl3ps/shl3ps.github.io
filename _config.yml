@@ -8,7 +8,7 @@ timezone: America/Panama
 title: "shl3ps's blog"
 tagline: Reversing · Low-Level Programming · Offensive Security
 description: >-
-Low-level · notes · binary analysis · and CTF writeups.
+"Low-level, notas, análisis de binarios y writeups de CTF."
 # CAMBIA "TU-USUARIO" por tu usuario de GitHub. Sin "/" al final.
 url: "https://shl3ps.github.io"
 baseurl: ""
