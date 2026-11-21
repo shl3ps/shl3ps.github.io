@@ -30,8 +30,9 @@ main: ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), statically linked
 > - Not stripped: este conserva su informacion de simbolos que puede facilitar el analisis
 > 
 
-
-![[Pasted image 20261121171729.png]]
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; margin-bottom: 24px;">
+  <img src="/assets/00%20filemain.png" alt="Salida de file" style="width: 600px; max-width: 100%; height: auto; border-radius: 6px;">
+</div>
 
 
 ---
@@ -47,8 +48,9 @@ WRONG
 
 - Al ingresar una entrada incorrecta, el programa imprime 'WRONG.'
 
-![[Pasted image 20261121171949.png]]
-
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; margin-bottom: 24px;">
+  <img src="/assets/01%20WRONG.png" alt="Ejecución con entrada incorrecta" style="width: 600px; max-width: 100%; height: auto; border-radius: 6px;">
+</div>
 
 # 3. Analisis (pwndbg)
 
@@ -131,8 +133,9 @@ aaaaaaa
 
 - La cadena esperada esta en texto plano en *.data*, sin ofuscar.
 
-![[Pasted image 20261121175735.png]]
-
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; margin-bottom: 24px;">
+  <img src="/assets/01%20BREAKPOINT.png" alt="Breakpoint en la comparación" style="width: 600px; max-width: 100%; height: auto; border-radius: 6px;">
+</div>
 
 # 4. Solucion
 
