@@ -1,6 +1,6 @@
 ---
-layout: categories
-icon: fas fa-stream
-order: 98
-title: Categories
+layout: category
+title: Reversing
+icon: fas fa-bug
+order: 2
 ---
