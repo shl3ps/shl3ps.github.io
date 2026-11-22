@@ -13,18 +13,18 @@ image:
 
 
 ```sh
-file main                                                                            ✔ 
+file main                                                                            
 main: ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), statically linked, not stripped
 ```
 
 - **ELF 32-bit**: Ejecutable de Linux de 32 bits.
 - **LSB** : Little Endian (orden de bytes).
 - **Intel i386** : Arquitectura x86 de 32 bits.
-- **Version 1 (SYVS)** : ELF version 1, ABI System V.
+- **Version 1 (SYSV)** : ELF version 1, ABI System V.
 - **Statically Linked** : Las librerias van incluidas en el binario y no depende de '.so' externos.
 - **Not stripped** : Conserva los simbolos  (nombres de funciones), lo que facilita el analisis.
 
-> [!warning] Interesante  
+> 
 > - Tomar encuenta esto para reverse
 > 
 > - Un ejecutable puede estar:
@@ -98,12 +98,12 @@ Dump of assembler code for function _start:
 
 | Instrucciones              | Que hacen                                                                                                                             |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| call trole                 | TODO: dIsassemble trole  **Probablemente imprime el prompt**                                                                          |
-| mov eax, 3  ... int 0x80   | Syscall Linux x86 read(0, 0x804a02a, 17), lee hasta 0x11 **17 bytes** desde stdin hacia 0x804a02a                                     |
+| call trole                 | Llama a la función trole. No la analicé: al poner el breakpoint después de ella, la cadena esperada ya está completa en memoria                                                                       |
+| mov eax, 3  ... int 0x80   | Syscall Linux x86 read(0, 0x804a02a, (17 en decimal), lee hasta 0x11 **17 bytes** desde stdin hacia 0x804a02a                                     |
 | lea esi / lea edi          | Carga las direcciones de origen *ESI* y de destino *EDI*  para la comparacion, de buffer de entrada vs la cadena esperada como "lmao" |
 | mov ecx, 0x11 + repz cmpsb | Compara byte a byte hasta 0x11 *17* veces mientras *ZF = 1* y *ECX != 0*  ([ESI] frente a [EDI], avanzando punteros segun DF)         |
-| jne error                  | Si algun byte difiere (ZF = 0), salta a error (normalmene imprime WRONG)                                                              |
-| jmp congratulation         | Si todos los bytes coinciden, salta incondicionalmente a [congratulation]   (mensaje de extio).                                       |
+| jne error                  | Si algun byte difiere (ZF = 0), salta a error (normalmente imprime WRONG)                                                              |
+| jmp congratulation         | Si todos los bytes coinciden, salta incondicionalmente a [congratulation]   (mensaje de exito).                                       |
 
 ## 3.3 Breakpoint en la comparacion
 
