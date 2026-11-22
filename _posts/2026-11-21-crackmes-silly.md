@@ -2,10 +2,12 @@
 title: "crackmes.one: Silly (Easy)"
 date: 2026-11-21 12:00:00 -0500
 categories: [Reversing]
-tags: [crackmes, ctf, gdb, pwndbg, x86, easy]
+tags: [crackmes, ctf, pwndbg, x86, easy]
 description: "Writeup del crackme Silly: comparación de cadenas con repz cmpsb en un ELF de 32 bits."
+image:
+  path: /assets/portadablogcrackme.one.png
+  alt: Portada del writeup Silly
 ---
-
 
 # 1. Identificar el binario 
 
