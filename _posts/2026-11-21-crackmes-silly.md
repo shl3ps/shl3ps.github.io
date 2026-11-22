@@ -5,7 +5,7 @@ categories: [Reversing]
 tags: [crackmes, ctf, pwndbg, x86, easy]
 description: "Writeup del crackme Silly: comparación de cadenas con repz cmpsb en un ELF de 32 bits."
 image:
-  path: /assets/portadablogcrackme.one.png
+  path: /assets/portada-silly.png
   alt: Portada del writeup Silly
 ---
 
