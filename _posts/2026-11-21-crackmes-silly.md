@@ -28,7 +28,7 @@ main: ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), statically linked
 > - Tomar encuenta esto para reverse
 > 
 > - Un ejecutable puede estar:
-> - Stripped: en este se han eliminado determiandos simbolos y nombres de funciones por la cual dificultad  el analisis
+> - Stripped: en este se han eliminado determinados simbolos y nombres de funciones por la cual dificultad  el analisis
 > - Not stripped: este conserva su informacion de simbolos que puede facilitar el analisis
 > 
 
